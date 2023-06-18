@@ -1,4 +1,3 @@
-#if os(iOS)
 import UIKit
 import AuthenticationServices
 
@@ -17,4 +16,3 @@ extension ASUserAgent: ASWebAuthenticationPresentationContextProviding {
     }
 
 }
-#endif
